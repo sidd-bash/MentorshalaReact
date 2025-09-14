@@ -1,8 +1,3 @@
-Got it 👍 I’ll only refine the **language** while keeping all the **details exactly the same**.
-Here’s your improved version (ready to copy-paste):
-
----
-
 # Mentorshala
 
 ## Setup Instructions
@@ -55,6 +50,3 @@ Now your application will be running on **localhost:3000**.
 5. Swipe **right** on a card if you like the person.
 6. When you swipe right, the **matches section** of the person you liked will be updated, and your name will appear there.
 
----
-
-Do you also want me to **polish formatting with headings like Features / Tech Stack** for a more professional README look, or keep it strictly instructional like this?
