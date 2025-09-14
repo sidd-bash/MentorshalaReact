@@ -1,7 +1,7 @@
 import '../css/component/widgetSm.css'
 import photo1 from '../../../images/AtulSahay.jpg'
 
-import { Visibility } from "@material-ui/icons";
+import { Visibility } from "@mui/icons-material";
 import { useState,useEffect } from "react";
 import http from '../../../http-common'
 

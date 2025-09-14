@@ -14,7 +14,7 @@ import {
   WorkOutline,
   Report,
   
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import ReportIcon from '@mui/icons-material/Report';
 import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 

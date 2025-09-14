@@ -1,28 +1,60 @@
-Mentorshala react version
+Got it 👍 I’ll only refine the **language** while keeping all the **details exactly the same**.
+Here’s your improved version (ready to copy-paste):
 
-first clone this repo in ur desktop.
-then install node in ur system.
-move on to the desired folder where you have cloned the project then do "npm install" in both client and server folder.
-after that in client folder run npm start and in server folder run nodemon server.
-now on localhost port 3000 , you can find you application running.
+---
 
+# Mentorshala
 
-1. Clone This project.
-2. In Server directory, create an env file .
-3. In that config.env file, write following lines:
-        1. MENTORSHALA_DB_URI=mongodb+srv://        saurabhkumar1432001:Saurabh%40mongodb@mentorshala.3gffj.mongodb.net/mydb
-        2. MENTORSHAL_NS=mydb
-        3.PORT=5000
+## Setup Instructions
 
-4. In Client directory, replace every statement 'https://mentorshala-backend.onrender.com' with ' http://localhost:5000'
+1. Clone this repository to your desktop.
+2. Install Node.js on your system.
+3. Navigate to the folder where you cloned the project, then run `npm install` in both the **client** and **server** directories.
+4. In the **server** directory, create a file named `config.env` and add the following lines:
 
-5. Open terminal, in client directory run npm start
-6. Open new terminal, in server directory run nodemon server
+   ```
+   MENTORSHALA_DB_URI=mongodb+srv://saurabhkumar1432001:Saurabh%40mongodb@mentorshala.3gffj.mongodb.net/mydb
+   MENTORSHAL_NS=mydb
+   PORT=5000
+   ```
+5. In the **client** directory, replace every instance of
 
-To run the project:
-1. Go to Login by clicking login button.
-2. Type Username: abhiofficial581@gmail.com  , Password: 234
-3. Now You have the main page ijnterface. 
-4. You can swipe left the cards if the you dislike the person.
-5. You can swipe right the card if you like the the person.
-6. When you swiperight then in the matches section of the person you liked willget updated and your name will be shown.
+   ```
+   https://mentorshala-backend.onrender.com
+   ```
+
+   with
+
+   ```
+   http://localhost:5000
+   ```
+6. Open a terminal in the **client** directory and run:
+
+   ```bash
+   npm start
+   ```
+7. Open a new terminal in the **server** directory and run:
+
+   ```bash
+   nodemon server
+   ```
+
+Now your application will be running on **localhost:3000**.
+
+---
+
+## How to Use
+
+1. Open the app in your browser and click the **Login** button.
+2. Enter the following credentials:
+
+   * **Username:** `abhiofficial581@gmail.com`
+   * **Password:** `234`
+3. You will now see the main page interface.
+4. Swipe **left** on a card if you dislike the person.
+5. Swipe **right** on a card if you like the person.
+6. When you swipe right, the **matches section** of the person you liked will be updated, and your name will appear there.
+
+---
+
+Do you also want me to **polish formatting with headings like Features / Tech Stack** for a more professional README look, or keep it strictly instructional like this?

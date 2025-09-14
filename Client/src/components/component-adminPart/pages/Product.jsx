@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import '../css/page/product.css'
 import Chart from '../components/Chart';
 import { productData } from "../dummyData";
-import {Publish} from '@material-ui/icons'
+import {Publish} from '@mui/icons-material'
 
 function Product() {
   return (

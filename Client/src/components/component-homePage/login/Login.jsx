@@ -6,7 +6,6 @@ import Bg from "../../../images/bg.svg";
 import Avatar from "../../../images/avatar.svg";
 import logInimg from "../../../images/22866003-removebg-preview.png";
 import { useNavigate } from "react-router-dom";
-// import { useAlert } from "react-alert";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, login } from "../../../actions/userAction";
 import { useAuthState } from 'react-firebase-hooks/auth';
