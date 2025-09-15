@@ -8,7 +8,7 @@
 4. In the **server** directory, create a file named `config.env` and add the following lines:
 
    ```
-   MENTORSHALA_DB_URI=mongodb+srv://saurabhkumar1432001:Saurabh%40mongodb@mentorshala.3gffj.mongodb.net/mydb
+   MENTORSHALA_DB_URI=<mongodb_uri>
    MENTORSHAL_NS=mydb
    PORT=5000
    ```
@@ -43,7 +43,7 @@ Now your application will be running on **localhost:3000**.
 1. Open the app in your browser and click the **Login** button.
 2. Enter the following credentials:
 
-   * **Username:** `abhiofficial581@gmail.com`
+   * **Username:** `dummy@gmail.com`
    * **Password:** `234`
 3. You will now see the main page interface.
 4. Swipe **left** on a card if you dislike the person.
